@@ -1,8 +1,10 @@
 package com.example.challenge5.database
 
+import javax.inject.Inject
 
 
-class RegisterRepository(private val dao: RegisterDatabaseDao) {
+class RegisterRepository @Inject constructor(
+    private val dao: RegisterDatabaseDao) {
 
     val users = dao.getAllUsers()
 

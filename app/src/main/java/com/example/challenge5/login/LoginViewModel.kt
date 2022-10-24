@@ -8,12 +8,15 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.challenge5.database.RegisterRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class LoginViewModel (private val repository: RegisterRepository, application: Application) :
+@HiltViewModel
+class LoginViewModel @Inject constructor(private val repository: RegisterRepository, application: Application) :
     AndroidViewModel(application), Observable {
 
     val users = repository.users
