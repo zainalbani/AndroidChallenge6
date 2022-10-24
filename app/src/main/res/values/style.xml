@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextStyle">
+        <item name="android:fontFamily">@font/coolvetica</item>
+    </style>
+    <style name="HeadStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/anja</item>
+    </style>
+    <style name="DetailStyle">
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+</resources>

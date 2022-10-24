@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieApp(KR)</string>
+    <string name="text_register">등록하다</string>
+    <string name="hint_name">이름을 입력하시오</string>
+    <string name="hint_email">이메일 입력</string>
+    <string name="hint_password">암호를 입력</string>
+    <string name="hint_confirm_password">비밀번호 확인 입력</string>
+    <string name="error_password_match">비밀번호가 일치하지 않음</string>
+    <string name="error_message_name">이름을 입력하시오</string>
+    <string name="error_message_email">유효한 이메일을 입력하세요</string>
+    <string name="error_message_password">암호를 입력</string>
+    <string name="success_message">등록 성공</string>
+    <string name="error_email_exists">이미 사용 가능한 이메일</string>
+    <string name="text_login">로그인</string>
+    <string name="text_not_member">아직 계정이 없습니다</string>
+    <string name="error_valid_email_password">잘못된 이메일 및 비밀번호</string>
+    <string name="text_logout">로그 아웃</string>
+    <string name="have_account">이미 계정이 있습니까? 로그인</string>
+</resources>

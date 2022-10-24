@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieApp(EN)</string>
+    <string name="text_register">REGISTER</string>
+    <string name="hint_name">Input Name</string>
+    <string name="hint_email">Input Email</string>
+    <string name="hint_password">Input Password</string>
+    <string name="hint_confirm_password">Input Confirm Password</string>
+    <string name="error_password_match">Password Doesnt Match</string>
+    <string name="error_message_name">Input Nama</string>
+    <string name="error_message_email">Input Valid Email</string>
+    <string name="error_message_password">Input Password</string>
+    <string name="success_message">Registration Succesful</string>
+    <string name="error_email_exists">Email Already</string>
+    <string name="text_login">LOGIN</string>
+    <string name="text_not_member">Dont have an account yet</string>
+    <string name="error_valid_email_password">Email and Password wrong</string>
+    <string name="text_logout">Logout</string>
+    <string name="have_account">Already Have Account? Login</string>
+</resources>
